@@ -12,6 +12,10 @@
 		A23A0B921E42D38500EE4220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23A0B901E42D38500EE4220 /* Main.storyboard */; };
 		A23A0B941E42D38500EE4220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23A0B931E42D38500EE4220 /* Assets.xcassets */; };
 		A23A0B971E42D38500EE4220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23A0B951E42D38500EE4220 /* LaunchScreen.storyboard */; };
+		A23A0B9F1E42DF3A00EE4220 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A0B9E1E42DF3A00EE4220 /* PageController.swift */; };
+		A23A0BA11E42E13600EE4220 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A0BA01E42E13600EE4220 /* Story.swift */; };
+		A23A0BA31E42E67200EE4220 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A0BA21E42E67200EE4220 /* Page.swift */; };
+		A23A0BA51E42EBD400EE4220 /* Adventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A0BA41E42EBD400EE4220 /* Adventure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		A23A0B931E42D38500EE4220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A23A0B961E42D38500EE4220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A23A0B981E42D38500EE4220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23A0B9E1E42DF3A00EE4220 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		A23A0BA01E42E13600EE4220 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		A23A0BA21E42E67200EE4220 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		A23A0BA41E42EBD400EE4220 /* Adventure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adventure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				A23A0B8C1E42D38400EE4220 /* AppDelegate.swift */,
 				A23A0B8E1E42D38400EE4220 /* ViewController.swift */,
+				A23A0B9E1E42DF3A00EE4220 /* PageController.swift */,
+				A23A0BA01E42E13600EE4220 /* Story.swift */,
+				A23A0BA21E42E67200EE4220 /* Page.swift */,
+				A23A0BA41E42EBD400EE4220 /* Adventure.swift */,
 				A23A0B901E42D38500EE4220 /* Main.storyboard */,
 				A23A0B931E42D38500EE4220 /* Assets.xcassets */,
 				A23A0B951E42D38500EE4220 /* LaunchScreen.storyboard */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23A0B9F1E42DF3A00EE4220 /* PageController.swift in Sources */,
 				A23A0B8F1E42D38400EE4220 /* ViewController.swift in Sources */,
 				A23A0B8D1E42D38400EE4220 /* AppDelegate.swift in Sources */,
+				A23A0BA11E42E13600EE4220 /* Story.swift in Sources */,
+				A23A0BA51E42EBD400EE4220 /* Adventure.swift in Sources */,
+				A23A0BA31E42E67200EE4220 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
